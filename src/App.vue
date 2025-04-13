@@ -7,17 +7,50 @@
           <li>
             Write your checklist in the following format:
             <pre>
-# Name of Section
+# Pre-PC
 
-## Name of Checklist 1
+## Book Flight
 
-* Item 1: Action to Perform
-* Item 2: Action to Perform
+* NewSky flight: BOOK
+* Simbrief OFP: GENERATE
+* OFP units: Lbs
+* OFP callsign: UPDATE
 
-## Name of Checklist 2
+## Review OFP
+* Airport, SID/STAR: REVIEW
+* Terminal/FBO/GA parking: SELECT
+* Dep/Arr runway: EXPECT
 
-* Item 1: Action to Perform
-* Item 2: Action to Perform
+# Pre-VR T-45
+
+## Start PC
+
+* MSFS, NewSky, vPilot, VSR: RUN
+* NewSky OFP release: LATEST
+* Vatsim flight plan: FILE
+
+## Load World
+
+* Position: AS SELECTED
+* Virtual Desktop: RUN
+* Vatsim callsign: UPDATE
+* vPilot: CONNECT
+
+## Start Flight
+
+* Navigraph flight: IMPORT
+* VSR flight plan: IMPORT
+* Vatsim airport traffic: LOCATE
+
+# VR T-30
+
+## Enter VR
+
+* Camera: PILOT-2
+* Orientation: RESET
+* Navigraph panel: POSITION
+* VSR panel: POSITION
+* Vatsim radio: CHECK
             </pre>
           </li>
           <li>This tool will render your checklist to CSV, Dynon, and PDF.</li>

@@ -6,8 +6,6 @@
       {{title}}
     </h1>
     <checklist v-for="checklist in checklists" v-bind:title="checklist.title" v-bind:items="checklist.items" v-bind:key="checklist.id"></checklist>
-
-    <div v-if="generated!==''" class="generated">{{ generated }}</div>
   </div>
 </template>
 
@@ -22,6 +20,7 @@ export default {
 
 <style scoped>
 div {
+  font-family: Helvetica, sans-serif;
   width: auto;
   overflow: hidden;
   background-color: #f5e7d3;
@@ -29,17 +28,21 @@ div {
 }
 div.checklist-set{
   border: 1px solid #000;
-  float: left;
+  /* float: left; */
   width: 198pt;
-  height: 756pt;
+  /* height: 756pt; */
+  margin-right: 15px;
+  margin-bottom: 25px;
 }
+
 div.checklist-set h1 {
   margin: 0;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding: 5px;
   background-color: #ecb100;
   text-align: center;
   color: #fff;
+  /* margin-bottom: 16px; */
+  font-size: 20px;
 }
 div.checklist-set h1.emergency {
   background-color: #ff371a;

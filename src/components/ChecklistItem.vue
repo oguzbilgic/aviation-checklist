@@ -28,6 +28,8 @@ span.dots {
   text-align: center;
   white-space: nowrap; /* Prevent text from wrapping */
   overflow: hidden; /* Hide overflowing dots */
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 span.dots::before {

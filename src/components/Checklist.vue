@@ -20,16 +20,19 @@ export default {
 <style scoped>
 div.checklist {
   overflow: hidden;
-  margin-bottom: 12px;
+  margin: 10px 0px;
   padding-left: 4px;
   padding-right: 4px;
 }
 div h2 {
+  font-family: Helvetica, sans-serif;
   float: left;
   display: block;
   width: 100%;
   margin: 0;
   text-align: left;
+  font-size: 16px;
+  margin-bottom: 8px;
 }
 ul {
   margin: 0;
@@ -39,5 +42,7 @@ ul {
 ul li {
   list-style-type:none;
   width: 100%;
+  margin-bottom: 2px;
+  font-family: monospace;
 }
 </style>
